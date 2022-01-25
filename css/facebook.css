@@ -143,18 +143,18 @@ background-color:var(--fds-gray-20);
     font-size: 40px;
     padding-left: 5px;
 }
-@media (max-width: 1180px)
-{
-    .nav-right .search .text
+    @media (max-width: 745px)
     {
-        display: none;
-    }
     .nav-right .search i 
     {
         right: 63px;
         top: 9px;
         background-color: var(--fds-gray-20);
         border-radius: 50%;
+    }
+    .nav-right .search .text
+    {
+       display: none; 
     }
 }
 /* nav right------------------------ */
@@ -192,7 +192,7 @@ font-size: 25px;
 @media (max-width: 994px)
 {
     .nav-middle > li > i{
-        padding: 15px 20px;
+        padding: 18px 13px;
         font-size: 20px;
     }
 }
